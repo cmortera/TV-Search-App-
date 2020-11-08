@@ -4,20 +4,32 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
+	<title>Is This Show Good?</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
+
 	</script>
 
 </head>
 
 <body>
-	<h1>TV Show Search</h1>
-	<form id="searchForm">
-		<input type="text" name="query" placeholder="Search TV Shows">
-  <button>Search</button>
-</form>
+	<header>
+		<h1 class="title">Type in a Show to Start!</h1>
+	</header>
+	<main>
 
+		<div class="searchBar">
+			<form id="searchForm">
+				<input type="text" class="searching" name="query" id="searchValue" placeholder="Search TV Shows">
+  <button class="searching" id="searchButton">Search</button>
+  
+</form>
+</div>
+
+<div class="searchResults">
+
+</div>
+</main>
     <script src="script.js"></script>
   </body>
 </html>
